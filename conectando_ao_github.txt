@@ -1,0 +1,8 @@
+-> Criar conta no Github
+
+-> Para configurar a conta para se conectar ao github é necessário ir ao terminal local e digitar os seguintes comandos para definir o usuario e email:
+
+"git config --global user.name 'seu-nome-de-usuario'"
+"git config --global user.email 'seu-email'"
+
+-> Para conseguir subir um projeto para o Github é necessário criar um token para utilizar como senha, questão de segurança.

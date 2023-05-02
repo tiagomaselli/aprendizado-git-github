@@ -1,0 +1,34 @@
+<<< BRANCH >>>
+
+-> É uma linha independente de desenvolvimento que permite que você trabalhe em diferentes versões do código ao mesmo tempo.
+
+Exemplo para criar uma nova branch no git:
+
+1. Para criar uma nova branch chamada “nova-funcionalidade”, devemos executar no terminal:
+
+"git branch nova-funcionalidade"
+
+2. Para trabalhar nova branch ao invés da “master”, devemos executar:
+
+"git checkout nova-funcionalidade"
+
+3. Após fazer todas as alterações no código do projeto devemos adicionar os arquivos na zona intermediária e depois fazer um commit, dessa forma:
+
+"git add ."  (Se quisermos adicionar todos os arquivos, caso contrário, é só especificar)
+
+"git commit -m 'adicionando nova funcionalidade'"
+
+4. Se quiser voltar para a branch principal:
+
+"git checkout master"
+
+
+<<< MERGE >>>
+
+-> É um recurso no git que permite combinar as alterações de duas ou mais branchs em uma única branch. 
+
+Quando você mescla uma branch em outra, o Git tenta combinar automaticamente as alterações nas duas branches. Se o Git encontrar conflitos entre as alterações, ele alertará você para resolvê-los manualmente antes de concluir o merge.
+
+Seguindo o exemplo anterior, para combinar as alterações na branch “nova-funcionalidade” na branch principal, devemos voltar para a branch principal e utilizar o comando:
+
+"git merge nova-funcionalidade"

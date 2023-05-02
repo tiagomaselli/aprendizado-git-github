@@ -1,0 +1,41 @@
+<<< Principais comandos Git >>>
+
+-> Cria um repositório git para aquele projeto: 
+"git init"
+
+-> Adiciona o arquivo a área provisória (STAGE) para que ele seja monitorado:
+"git add [nome do arquivo]"
+
+-> Adiciona todos os arquivos modificados ou não-monitorados para o STAGE:
+"git add ."
+
+-> Adiciona o arquivo a área HEAD, espécie de produção:
+"git commit -m ‘[descrição da alteração]’"
+
+-> Verifica a situação do arquivo:
+"git status"
+
+-> Verifica o histórico de commits, tem mais de uma opção, cada uma com sua particularidade:
+"git log"
+"git log –pretty=oneline"
+"git log –pretty=oneline -1"
+"git –stat"
+
+-> Mostra as diferenças em todos os arquivos:
+"git diff"
+
+-> Mostra as diferenças apenas para o arquivo definido:
+"git diff [nome do arquivo]"
+
+-> Mostra apenas o nome dos arquivos que contém diferenças:
+"git diff –name-only"
+
+-> Adiciona mais alterações para o último commit (de qualquer forma tem que colocar o arquivo modificado em STAGE):
+"git commit –amend"
+Serve também para mudar a descrição do último commit, é só não ter nada em STAGE.
+
+-> Retira o arquivo de STAGE(as mudanças vão continuar no arquivo):
+"git reset HEAD [nome do arquivo]"
+
+-> Volta o arquivo para como ele estava no último commit:
+"git checkout – [nome do arquivo]"

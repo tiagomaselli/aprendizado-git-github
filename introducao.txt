@@ -1,0 +1,9 @@
+O que é Git?
+
+-> É um sistema de controle de versão de arquivos. Com ele podemos desenvolver projetos colaborativos com mais facilidade. 
+
+-------------------------------------------
+
+O que é Github?
+
+É um serviço de hospedagem para hospedar projetos Git. Além disso, permite projetos privados ou open source, ajuda a desenvolver um networking entre programadores e também serve como um portfólio online.
