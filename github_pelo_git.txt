@@ -1,0 +1,22 @@
+Utilizando o Github através do Git
+
+Primeiramente, é importante dizer que é possível adicionar e baixar repositórios direto no Github, fazendo upload ou baixando, respectivamente.
+
+O Passo-a-passo utilizando o Git, é:
+
+1. Criar um repositório no Github
+
+2. Abrir o terminal no diretório do projeto e inicializar o Git:
+"git init"
+
+3. Adicionar os arquivos ao Git:
+"git add ."
+
+4. Criar um commit para “salvar” as mudanças realizadas:
+"git commit -m 'primeiro commit'"
+
+5. Para “linkar” o nosso projeto local com o repositório no Github através do Git, devemos dar o seguinte comando:
+"git remote add origin <URL do repositório>"
+
+6. Para fazer o upload das alterações “commitadas” no projeto local para o repositório no Github, fazemos:
+"git push -u origin main"
